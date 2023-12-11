@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-## Intro
+# Intro
 
 If you've spent any time in the 'influencer marketing' or 'creator economy' space you will notice that most of these services provide an API as an afterthought or so severely marked up in price as to be non-viable to any developer or savvier growth marketer just starting out with their own venture.
 With DMT, our mission is to make creator marketing a viable and productive activity for anyone, regardless of their stage in the market, and we've found that APIs are a great way to start opening up those insights to new and more people.
