@@ -37,6 +37,7 @@ const sidebars = {
               collapsible:true,
               collapsed:true,
               items:[
+                "apps/googext_overview",
                 "apps/googext_help_support",
                 "apps/googext_service_terms",
                 "apps/googext_privacy_policy",
