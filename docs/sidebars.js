@@ -24,12 +24,27 @@ const sidebars = {
     {
       type: 'category',
       label: 'Docs',
-      items: ['tutorial-basics/create-a-document'],
-    },
-    {
-      type: 'category',
-      label: 'Additional',
-      items: []
+      items: [
+        {
+          type: "category",
+          label: "Apps",
+          collapsible:true,
+          collapsed:true,
+          items:[
+            {
+              type:"category",
+              label:"Creator Data Google Add-on",
+              collapsible:true,
+              collapsed:true,
+              items:[
+                "apps/creator-data-google-addon/help-support",
+                "apps/creator-data-google-addon/service-terms",
+                "apps/creator-data-google-addon/privacy-policy",                
+              ]
+            }
+          ]
+      }
+      ],
     }
   ],
   
