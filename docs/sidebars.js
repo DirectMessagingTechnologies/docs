@@ -37,9 +37,9 @@ const sidebars = {
               collapsible:true,
               collapsed:true,
               items:[
-                "apps/creator-data-google-addon/help-support",
-                "apps/creator-data-google-addon/service-terms",
-                "apps/creator-data-google-addon/privacy-policy",                
+                "apps/googext_help-support",
+                "apps/googext_service-terms",
+                "apps/googext_privacy-policy",                
               ]
             }
           ]
