@@ -1,5 +1,5 @@
 ---
-id: privacy-policy
+id: googext_privacy_policy
 title: Privacy Policy
 description: Privacy Policy for the DMT Creator Data Google Sheets add-on
 keywords:
