@@ -1,7 +1,7 @@
 ---
 id: googext_help_support
 title: Help & Support
-sidebar_position: 6
+sidebar_position: 2
 ---
 
 # Help & Support

@@ -1,7 +1,7 @@
 ---
 id: googext_overview
 title: Help & Support
-sidebar_position: 6
+sidebar_position: 1
 ---
 
 # Overview
@@ -22,7 +22,7 @@ The custom DMT functions are prefixed with `DMT` and can be directly invoked in 
 
 The DMTChannelEstimator function takes in the the `channelName` as well as a few optional parameters and returns a projected viewcount of how _a video_ from that given channel will perform in its first 30 days.
 
-This is helpful for understanding how to project performance for a given channel you might be evaluating in your campaign. 
+This is helpful for understanding how to project performance for a given channel you might be considering for collaboration in a media campaign or just for general understanding of how they might perform relative to their follower counts.
 
 #### DMTChannelFinder()
 
