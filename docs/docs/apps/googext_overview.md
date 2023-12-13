@@ -6,20 +6,28 @@ sidebar_position: 6
 
 # Overview
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+The DMT Creator Data app is an extension for Google Sheets that puts all of your influencer and creator data gathering workflows back in google sheets so you can get back to focusing on planning and executing great campaigns!
 
-Docusaurus has **much more to offer**!
+This quick overview includes the major components of the extension that is generally available.
 
-Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.
+## Components
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+The current implementation includes two major components: the custom functions that you can invoke directly in the cells of your google spreadhsheets, and there is also a basic settings panel that is included for understanding who the managing user of the extension in the working document is.
 
-## What's next?
+### Custom Functions
 
-- Read the [official documentation](https://docusaurus.io/)
-- Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
-- Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+The custom DMT functions are prefixed with `DMT` and can be directly invoked in your google sheets document of your choice as your workflow and analytics needs demand. We are always thinking about more functions to include and each function effectively packages the DMT API and makes it "readable" by Google Sheets for your convenience.
+
+#### DMTChannelEstimator()
+
+The DMTChannelEstimator function takes in the the `channelName` as well as a few optional parameters and returns a projected viewcount of how _a video_ from that given channel will perform in its first 30 days.
+
+This is helpful for understanding how to project performance for a given channel you might be evaluating in your campaign. 
+
+#### DMTChannelFinder()
+
+
+
+### Settings Panel
+
+The Settings panel is accessed through the `Settings` option in the `Extensions -> DMT Creator Data` dropdown. This is a basic but informative UI sidebar that shows you the managing user for the DMT Creator Data extension in the Google Sheets document you are operating in.
