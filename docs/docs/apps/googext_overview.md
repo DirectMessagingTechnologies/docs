@@ -1,7 +1,11 @@
 ---
 id: googext_overview
-title: Help & Support
-sidebar_position: 6
+title: Overview
+sidebar_position: 1
+description: Overview on the DMT Creator Data Google sheets extension
+keywords:
+    - Creator data
+    - Custom functions overview
 ---
 
 # Overview
@@ -20,12 +24,17 @@ The custom DMT functions are prefixed with `DMT` and can be directly invoked in 
 
 #### DMTChannelEstimator()
 
-The DMTChannelEstimator function takes in the the `channelName` as well as a few optional parameters and returns a projected viewcount of how _a video_ from that given channel will perform in its first 30 days.
+The `DMTChannelEstimator` function takes in the the `channelName` as well as a few optional parameters and returns a projected viewcount of how _a video_ from that given channel will perform in its first 30 days.
 
-This is helpful for understanding how to project performance for a given channel you might be evaluating in your campaign. 
+This is helpful for understanding how to project performance for a given channel you might be considering for collaboration in a media campaign or just for general understanding of how they might perform relative to their follower counts.
 
 #### DMTChannelFinder()
 
+The `DMTChannelFinder` function returns a list of channels that are "look alikes" of either a youtube video or channel that you pass in _or_ keywords that surface channels related to those keywords
+
+:::info 
+To use the `keywords` parameter without providing a channel or video url, you can simply pass in `Null()` into the `url` parameter.
+:::
 
 
 ### Settings Panel
