@@ -1,5 +1,5 @@
 ---
-id: googext_help_support
+id: goog-ext-help-support
 title: Help & Support
 sidebar_position: 2
 description: Contact us for help and support for DMT Creator Data for Google Sheets extension
