@@ -1,5 +1,5 @@
 ---
-id: googext_overview
+id: gsheets-overview
 title: Overview
 sidebar_position: 1
 description: Overview on the DMT Creator Data Google sheets extension
