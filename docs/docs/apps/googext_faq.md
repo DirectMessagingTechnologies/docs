@@ -1,42 +1,38 @@
 ---
-id: gsheets-overview
-title: Overview
+id: gsheets-faq
+title: FAQ
 sidebar_position: 1
-description: Overview on the DMT Creator Data Google sheets extension
+description: FAQ coverage for the DMT Creator Data Google sheets extension
 keywords:
     - Creator data
     - Custom functions overview
 ---
 
-# Overview
+# FAQ
 
-The DMT Creator Data app is an extension for Google Sheets that puts all of your influencer and creator data gathering workflows back in google sheets so you can get back to focusing on planning and executing great campaigns!
+## How is the DMT Creator Data Google Sheets extension different than other offerings?
 
-This quick overview includes the major components of the extension that is generally available.
+You may have noticed other offerings tend to focus on a single social platform (eg YouTube) and provide rigid templates that limit your ability to actually work with and analyze the data.
+The DMT extension is on a mission to provide the most transparent and high value data about the larger ecosystem of creators across all social platforms they may be active on. While we only support YouTube for now, you can expect more announcements about this soon (hint: ⏰)
+Why does this app require all these permissions from Google?
+The DMT Creator Data extension only uses your permissions to understand who is making requests of the data to the DMT server and save your specific information for your retrieval and convenience.
 
-## Components
+## Where does this extension source the data from?
 
-The current implementation includes two major components: the custom functions that you can invoke directly in the cells of your google spreadhsheets, and there is also a basic settings panel that is included for understanding who the managing user of the extension in the working document is.
+The DMT extension reads directly from the various social video platforms API (Application Programming Interface) whenever possible. 
+In certain instances such as the DMT Estimator, the data point is actually generated from calculating the provided data set in a way that can provide you with a useful estimate for upcoming performance.
 
-### Custom Functions
+## Is this extension free?
 
-The custom DMT functions are prefixed with `DMT` and can be directly invoked in your google sheets document of your choice as your workflow and analytics needs demand. We are always thinking about more functions to include and each function effectively packages the DMT API and makes it "readable" by Google Sheets for your convenience.
+As of December 2023 this extension is in "early adopter" phase which means that it is free, with pricing tiers that support more advanced and robust use-cases arriving in Q1 of 2024. 
+Please keep in mind that we always plan to provide a generous free tier.
+What are some other ways I can access the creator datasets provided in the DMT extension?
+The DMT extension is largely powered by the DMT API which will be increasingly opened up in a self service fashion. Sign up for early approval on our waitlist here
 
-#### DMTChannelEstimator()
+## Do you have an API I can read from as well?
 
-The `DMTChannelEstimator` function takes in the the `channelName` as well as a few optional parameters and returns a projected viewcount of how _a video_ from that given channel will perform in its first 30 days.
+Yes! And you can sign up for early access here
+The DMT extension is largely powered by our own APIs that anybody can get direct access to for their own custom needs.
 
-This is helpful for understanding how to project performance for a given channel you might be considering for collaboration in a media campaign or just for general understanding of how they might perform relative to their follower counts.
-
-#### DMTChannelFinder()
-
-The `DMTChannelFinder` function returns a list of channels that are "look alikes" of either a youtube video or channel that you pass in _or_ keywords that surface channels related to those keywords
-
-:::info 
-To use the `keywords` parameter without providing a channel or video url, you can simply pass in `Null()` into the `url` parameter.
-:::
-
-
-### Settings Panel
-
-The Settings panel is accessed through the `Settings` option in the `Extensions -> DMT Creator Data` dropdown. This is a basic but informative UI sidebar that shows you the managing user for the DMT Creator Data extension in the Google Sheets document you are operating in.
+## How and where can I report an issue or share feedback?
+You can reference the [Help & Support](./gsheets-help-support) page or feel free to submit a ticket directly [here](https://airtable.com/appzETVKT8y3nFxsx/shr1bHROPcWon5ivv)
