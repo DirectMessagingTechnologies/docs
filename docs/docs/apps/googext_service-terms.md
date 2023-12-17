@@ -1,7 +1,7 @@
 ---
 id: gsheets-service-terms
 title: Terms of Service 
-description: Enumerate the terms of service for usage of Creator Data google add on.
+description: Enumerate the terms of service for usage of Creator Data Google Sheets add on.
 keywords:
     - terms of service
     - legal
