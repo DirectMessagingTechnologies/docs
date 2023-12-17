@@ -1,5 +1,5 @@
 ---
-id: googext_service_terms
+id: gsheets-service-terms
 title: Terms of Service 
 description: Enumerate the terms of service for usage of Creator Data google add on.
 keywords:
