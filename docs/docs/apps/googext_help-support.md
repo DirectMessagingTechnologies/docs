@@ -1,5 +1,5 @@
 ---
-custom_edit_url: null
+
 id: gsheets-help-support
 title: Help & Support
 sidebar_position: 2

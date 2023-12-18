@@ -1,5 +1,5 @@
 ---
-custom_edit_url: null
+
 id: gsheets-privacy-policy
 title: Privacy Policy
 description: Privacy Policy for the DMT Creator Data Google Sheets add-on
