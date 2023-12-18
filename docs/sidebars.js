@@ -33,14 +33,16 @@ const sidebars = {
           items:[
             {
               type:"category",
-              label:"Creator Data Google Add-on",
+              label:"Google Sheets Creator Data",
               collapsible:true,
               collapsed:true,
               items:[
-                "apps/googext_overview",
-                "apps/googext_help_support",
-                "apps/googext_service_terms",
-                "apps/googext_privacy_policy",
+                "apps/gsheets-overview",
+                "apps/gsheets-faq",
+                "apps/gsheets-help-support",
+                "apps/gsheets-service-terms",
+                "apps/gsheets-privacy-policy",
+                
               ]
             }
           ]
