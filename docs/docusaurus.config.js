@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'DMT Docs',
   tagline: 'Docs for DMT Creator Data',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo-mock-3-transparent.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -69,7 +69,7 @@ const config = {
         title: 'DMT Docs',
         logo: {
           alt: 'DMT logo',
-          src: 'img/logo.svg',          
+          src: 'img/logo-mock-3-transparent.png',          
         },
         items: [
           {
