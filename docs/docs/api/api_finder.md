@@ -18,3 +18,11 @@ The DMT API is current in pre-alpha. This means you should not rely on its avail
 
 If you wish to get early access, sign up using this [form](https://airtable.com/appzETVKT8y3nFxsx/shrEEvRQTq3tXfmgR) (I promise we look at it!)
 The Channel Finder API generates a list of related channels simply from the required channelType and url query params in an http GET request.
+
+## Request example
+
+```js title="cURL Channel Finder"
+--request GET
+--url 'https://stg.directmessage.tech/api/v0/analytics/creators/find&url={{URL}}'
+--header 'Authorization: Bearer {{YOUR_API_KEY}}
+```

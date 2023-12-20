@@ -26,3 +26,11 @@ This **Creator Estimator** service is an exclusive service provided by DMT and t
 
 While these projections have been used with real clients and in production use-cases, they are not to be thought of as a guarantee, but as a helpful way to anchor valuing a channel's performance and therefore their pricing.
 :::
+
+## Request example
+
+```js title="cURL Channel Estimator" showLineNumbers
+--request GET
+--url 'https://stg.directmessage.tech/api/v0/analytics/creators/estimator?channelName=@JohnCooganPlus&channelType=youtube'
+--header 'Authorization: Bearer {{YOUR_API_KEY}}
+```
