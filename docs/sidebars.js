@@ -24,6 +24,8 @@ const sidebars = {
     {
       type: 'category',
       label: 'Docs',
+      collapsible:true,
+      collapsed:false,
       items: [
         {
           type: "category",
@@ -46,6 +48,26 @@ const sidebars = {
               ]
             }
           ]
+      },
+      {
+        type: "category",
+        label: "API",
+        collapsible:true,
+        collapsed:true,
+        items:[
+          "api/api-overview",
+          {
+            type:"category",
+            label:"Creator Analytics",
+            collapsible: true,
+            collapsed: false,
+            items:[
+              "api/api-estimator",
+              "api/api-finder",
+              // "api/api-audience"
+            ]
+          }
+        ]
       }
       ],
     }
