@@ -29,6 +29,26 @@ const sidebars = {
       items: [
         {
           type: "category",
+          label: "API",
+          collapsible:true,
+          collapsed:true,
+          items:[
+            "api/api-overview",
+            {
+              type:"category",
+              label:"Creator Analytics",
+              collapsible: true,
+              collapsed: false,
+              items:[
+                "api/api-estimator",
+                "api/api-finder",
+                // "api/api-audience"
+              ]
+            }
+          ]
+        },
+        {
+          type: "category",
           label: "Apps",
           collapsible:true,
           collapsed:true,
@@ -48,27 +68,7 @@ const sidebars = {
               ]
             }
           ]
-      },
-      {
-        type: "category",
-        label: "API",
-        collapsible:true,
-        collapsed:true,
-        items:[
-          "api/api-overview",
-          {
-            type:"category",
-            label:"Creator Analytics",
-            collapsible: true,
-            collapsed: false,
-            items:[
-              "api/api-estimator",
-              "api/api-finder",
-              // "api/api-audience"
-            ]
-          }
-        ]
-      }
+      },      
       ],
     }
   ],
