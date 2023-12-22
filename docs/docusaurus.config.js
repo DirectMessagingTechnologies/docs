@@ -70,7 +70,7 @@ const config = {
         logo: {
           alt: 'DMT logo',
           src: 'img/logo-mock-3-transparent.png',
-          href:"/",
+          href:"docs/intro-dmt",
         },
         items: [
           {
