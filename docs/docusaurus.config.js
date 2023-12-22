@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DMT Docs',
+  title: 'DMT',
   tagline: 'Docs for DMT Creator Data',
   favicon: 'img/logo-mock-3-transparent.png',
 
@@ -20,7 +20,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Direct Message Technologies', // Usually your GitHub org/user name.
+  organizationName: 'Direct Messaging Technologies', // Usually your GitHub org/user name.
   projectName: 'Docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -69,16 +69,17 @@ const config = {
         title: 'DMT Docs',
         logo: {
           alt: 'DMT logo',
-          src: 'img/logo-mock-3-transparent.png',          
+          src: 'img/logo-mock-3-transparent.png',
+          href:"/",
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://twitter.com/usedmt',
             label: 'Twitter',
