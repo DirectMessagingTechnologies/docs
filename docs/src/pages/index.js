@@ -4,7 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 // import HomepageFeatures from '@site/src/components/HomepageFeatures';
 // import IndexContent from '../../../docs/docs/index';
-import IndexContent from './../docs/index'; // Adjust the import path as needed
+import IndexContent from '../../../docs/docs/index.md'; // Adjust the import path as needed
 
 
 import Heading from '@theme/Heading';
