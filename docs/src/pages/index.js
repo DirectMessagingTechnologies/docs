@@ -43,7 +43,9 @@ export default function Home() {
     //   </main>
     // </Layout>
     <Layout>
+      <main>
         <IndexContent />
+      </main>
     </Layout>
   );
 }
