@@ -71,21 +71,21 @@ const config = {
         logo: {
           alt: 'DMT logo',
           src: 'img/logo-mock-3-transparent.png',
-          href:"docs/intro-dmt",
+          href:"/",
         },
         items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Docs',
-          // },
           {
-            type: "doc",
-            docId: "intro-dmt",
-            position: "left",
-            label: "Docs",
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Docs',
           },
+          // {
+          //   type: "doc",
+          //   docId: "intro-dmt",
+          //   position: "left",
+          //   label: "Docs",
+          // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://twitter.com/usedmt',
