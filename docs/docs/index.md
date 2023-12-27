@@ -2,6 +2,7 @@
 sidebar_position: 1
 id: index
 title: "Welcome"
+slug: /
 ---
 
 # Welcome
