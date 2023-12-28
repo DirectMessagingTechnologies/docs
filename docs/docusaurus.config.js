@@ -67,7 +67,7 @@ const config = {
       // TODO: Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'DMT Docs',
+        title: 'DMT',
         logo: {
           alt: 'DMT logo',
           src: 'img/logo-mock-3-transparent.png',
