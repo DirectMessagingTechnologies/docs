@@ -4,6 +4,7 @@ id: gsheets-overview
 title: Overview
 sidebar_position: 1
 description: Overview on the DMT Creator Data Google sheets extension
+hide_table_of_contents: false 
 keywords:
     - Creator data
     - Custom functions overview
